@@ -24,6 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+        {/* Optional: Add Apple icon for mobile */}
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -32,3 +37,4 @@ export default function RootLayout({
     </html>
   );
 }
+
