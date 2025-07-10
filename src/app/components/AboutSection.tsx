@@ -38,7 +38,6 @@ export default function AboutSection() {
           {items.map((item, index) => (
             <TimelineItem
               key={index}
-              index={index}
               title={item.title}
               content={item.content}
               position={item.position}
@@ -51,12 +50,10 @@ export default function AboutSection() {
 }
 
 function TimelineItem({
-  index,
   title,
   content,
   position,
 }: {
-  index: number;
   title: string;
   content: string;
   position: "left" | "right";

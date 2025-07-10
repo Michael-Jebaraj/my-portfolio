@@ -54,7 +54,8 @@ export default function ContactSection() {
           viewport={{ once: true }}
           className="max-w-3xl mx-auto"
         >
-          <h2 className="text-4xl font-bold text-center mb-10">Let's Connect</h2>
+          <h2 className="text-4xl font-bold text-center mb-10"><h2>Let&apos;s Connect</h2>
+</h2>
 
           <form
             onSubmit={handleSubmit}

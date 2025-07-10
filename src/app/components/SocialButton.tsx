@@ -8,7 +8,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function SocialButton({ className }: { className?: string }) {
   const [isVisible, setIsVisible] = useState(false);
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const [, setActiveIndex] = useState<number | null>(null);
 
   const shareButtons = [
     {
